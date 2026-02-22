@@ -22,11 +22,14 @@ header {
   width: 391.48px;
   height: 22px;
 }
+.list-style-none{
+  list-style: none;
+}
 
 .nav-header ul {
   display: flex;
   list-style: circle;
-  gap: 42px;
+  gap: 35px;
 }
 
 .nav-header li {
@@ -166,14 +169,17 @@ button {
 .lots-img-1 {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6)), url(../images/card-lot-01.png);
+    background-size: contain;
 }
 .lots-img-2 {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.6)), url(../images/card-lot-02.jpg);
+    linear-gradient(rgba(0, 0, 0, 0.6)), url(../images/card-lot-02.png);
+    background-size: 100% 100%;
 }
 .lots-img-3 {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.6)), url(../images/card-lot-03.jpg);
+    linear-gradient(rgba(0, 0, 0, 0.6)), url(../images/card-lot-03.png);
+    background-size: contain;
 }
 
 .more {
