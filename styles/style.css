@@ -101,13 +101,17 @@ a {
   text-decoration: none;
 }
 .underline-black {
-  border-bottom: 1px solid rgb(0, 0, 0, 1); /* толщина, стиль, цвет */
-  padding-bottom: 3px; /* отступ между текстом и линией */
+  border-bottom: 1px solid rgb(0, 0, 0, 1);
+  padding-bottom: 3px; 
 }
 
 .underline-white {
-  border-bottom: 1px solid rgba(255, 255, 255, 1); /* толщина, стиль, цвет */
-  padding-bottom: 3px; /* отступ между текстом и линией */
+  letter-spacing: 0;
+  text-transform: uppercase;
+  text-decoration: underline rgb(255, 255, 255, 1);
+  text-underline-offset: 3px; 
+  text-decoration-thickness: 1px;
+
 }
 
 .title {
