@@ -102,6 +102,7 @@ h3 {
 a {
   text-decoration: none;
 }
+
 .underline-black {
   border-bottom: 1px solid rgb(0, 0, 0, 1);
   padding-bottom: 3px; 
@@ -110,10 +111,10 @@ a {
 .underline-white {
   letter-spacing: 0;
   text-transform: uppercase;
-  text-decoration: underline rgb(255, 255, 255, 1);
+  text-decoration: 
+    underline rgb(255, 255, 255, 1);
   text-underline-offset: 3px; 
   text-decoration-thickness: 1px;
-
 }
 
 .title {
@@ -151,6 +152,7 @@ a {
 .span-2 {
   letter-spacing: -0.4px;
 }
+
 .container-flex {
   display: flex;
 }
@@ -220,17 +222,17 @@ button {
 .lots-img-1 {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6)), url(../images/card-lot-01.png);
-    background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 .lots-img-2 {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6)), url(../images/card-lot-02.png);
-    background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 .lots-img-3 {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6)), url(../images/card-lot-03.png);
-    background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 
 .more {
@@ -266,7 +268,8 @@ button {
 .about-img img {
   max-width: 70%; 
   max-height: 70%;
-  border: 6px solid rgb(255, 255, 255, 1); 
+  border: 
+   6px solid rgb(255, 255, 255, 1); 
   box-sizing: border-box;
 }
 
