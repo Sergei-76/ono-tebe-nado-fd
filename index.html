@@ -10,23 +10,23 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
-    <header>
+    <header class="font-menu">
       <nav aria-label="Меню" class="nav-header">
         <ul>
           <li class="list-style-none"><a>главная</a></li>
-          <li><a class="underline-black">посмотреть лоты</a></li>
+          <li><a href="#lots-section" class="underline-black">посмотреть лоты</a></li>
           <li><a class="underline-black">об аукционе</a></li>
         </ul>
       </nav>
       <a class="logo-img"> <img src="images/logo-black.svg" alt="Логотип" /></a>
-      <address>
+      <address class="contacts">
         <a class="underline-black" href="tel:+99995555555">+9 999 555 5555</a>
         <br />
         <a class="underline-black" href="mailto:info@sobaka.ge"
           >info@sobaka.ge</a
         >
         <br />
-        наб. Принсенграхт 263-<br />
+        наб. Принсенграхт 263-
         265, Амстердам
       </address>
     </header>
@@ -37,12 +37,18 @@
           <h1 class="align-center">ТЕБЕ</h1>
           <h1 class="align-flex-end">НАДО</h1>
         </div>
-        <div class="description">
-          <p>Аукцион вещей, в которые никто не верил</p>
-          <button>Сделать ставку</button>
+        <div class="container-flex">
+          <div class="description">
+            <span class="span-1">Аукцион вещей, </span>
+            <span class="span-v">в</span>
+            <span class="span-2">которые никто не верил</span>
+          </div>
+          <div class="description-button" >
+            <button>Сделать ставку</button>
+          </div>
         </div>
       </section>
-      <section class="lots-section">
+      <section id="lots-section" class="lots-section">
         <h2>Лоты</h2>
         <div class="lots-grid">
           <div class="lots-flex lots-img-1">
