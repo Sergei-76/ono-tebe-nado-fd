@@ -17,7 +17,7 @@ header {
   line-height: 24px;
 }
 
-.contacts-margin{
+.contacts-margin {
   width: 240px;
   margin: 95px 50px 100px 184px;
 }
@@ -116,7 +116,7 @@ a {
 }
 
 .underline-black
-.active { 
+.active {
   text-decoration: none;
 }
 
@@ -125,7 +125,7 @@ a {
   text-transform: uppercase;
   text-decoration:
     underline rgb(255, 255, 255, 1);
-  text-underline-offset: 3px; 
+  text-underline-offset: 3px;
   text-decoration-thickness: 1px;
 }
 
