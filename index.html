@@ -2,97 +2,101 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="fonts/fonts.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
-    <header class="font-menu">
-      <nav aria-label="Меню" class="nav-header">
+    <header>
+      <nav aria-label="Меню" class="nav-header font-menu">
         <ul>
-          <li class="list-style-none"><a href="index.html">главная</a></li>
+          <li class="list-style-none"><a href="index.html" class="underline-black active">главная</a></li>
           <li><a href="#lots-section" class="underline-black">посмотреть лоты</a></li>
           <li><a href="#auction" class="underline-black">об аукционе</a></li>
         </ul>
       </nav>
       <a class="logo-img"> <img src="images/logo-black.svg" alt="Логотип" /></a>
-      <address class="contacts">
-        <a class="underline-black" href="tel:+99995555555">+9 999 555 5555</a>
-        <br />
-        <a class="underline-black" href="mailto:info@sobaka.ge"
-          >info@sobaka.ge</a
-        >
-        <br />
-        наб. Принсенграхт 263-
-        265, Амстердам
+      <address class="contacts contacts-margin">
+        <a class="underline-black" href="tel:+99995555555">+9 999 555 5555</a><br />
+        <a class="underline-black" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
+          <p>наб. Принсенграхт 263-<p/>
+          <p>265, Амстердам</p>
       </address>
     </header>
     <main>
       <section class="cover-img cover">
-        <div class="title">
-          <h1 class="align-start">оНО</h1>
-          <h1 class="align-center">ТЕБЕ</h1>
-          <h1 class="align-flex-end">НАДО</h1>
-        </div>
+          <h1 class="title">
+            <span class="align-start">оНО</span>
+            <span class="align-center tutli-text-margin-top">ТЕБЕ</span>
+            <span class="align-flex-end tutli-text-margin-top">НАДО</span>
+          </h1>
         <div class="container-flex">
-          <div class="description">
-            <span class="span-1">Аукцион вещей, </span>
-            <span class="span-v">в</span>
-            <span class="span-2">которые никто не верил</span>
-          </div>
-          <div class="description-button" >
-            <button>Сделать ставку</button>
-          </div>
+          <p class="description">
+            <span class="tracking-condensed">Аукцион вещей, </span>
+            <span class="tracking-wide">в</span>
+            <span class="tracking-tight">которые никто не верил</span>
+          </p>
+            <button class="description-button"><a href="#">Сделать ставку</a></button>
         </div>
       </section>
       <section id="lots-section" class="lots-section">
-        <h2>Лоты</h2>
-        <div class="lots-grid">
-          <div class="lots-flex lots-img-1">
-            <h3 class="underline-white">
-                Фильм режиссёра, который бросил киношколу
-            </h3>
-            <p class="text-end">
-              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-              ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-            </p>
-          </div>
-          <div class="lots-flex lots-img-2">
-            <h3 class="underline-white">
-              Книга, где описан один скучный день из жизни рекламногоагента
-            </h3>
-            <p class="text-end">
-              Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-              переходами на древнеанглийский. В ней одновременно рассказывается
-              о 16 июня 1904 года и об истории литературы, начиная с античных
-              времён. И это всё накладывается на эпическую поэму Гомера. Сколько
-              бы вы поставили на «Улисса» Джеймса Джойса?
-            </p>
-          </div>
-          <div class="lots-flex lots-img-3">
-            <h3 class="underline-white">
-              Картина, которую повторит даже 5-летний сын маминой подруги
-            </h3>
-            <p class="text-end">
-              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
-              похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
-              Сколько бы вы на такое поставили, если бы не знали, что это — одна
-              из революционных работ Кандинского?
-            </p>
-          </div>
-        </div>
-        <div class="padding-more">
-          <p class="more underline-black">
+        <h2 class="lots-padding">Лоты</h2>
+        <ul class="lots-grid">
+          <li class="list-style-none">
+            <a href="#">
+              <article class="lots-flex lots-img-film">
+                <h3 class="underline-white">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="text-end">
+                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                </p>
+              </article>
+            </a>
+          </li>
+          <li class="list-style-none">
+            <a href="#">
+              <article class="lots-flex lots-img-book">
+                <h3 class="underline-white">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <p class="text-end">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
+                  переходами на древнеанглийский. В ней одновременно рассказывается
+                  о 16 июня 1904 года и об истории литературы, начиная с античных
+                  времён. И это всё накладывается на эпическую поэму Гомера. Сколько
+                  бы вы поставили на «Улисса» Джеймса Джойса?
+                </p>
+              </article>
+            </a>
+          </li>
+          <li class="list-style-none">
+            <a href="">
+              <article class="lots-flex lots-img-picture">
+                <h3 class="underline-white">
+                Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="text-end">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
+                  похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
+                  Сколько бы вы на такое поставили, если бы не знали, что это — одна
+                  из революционных работ Кандинского?
+                </p>
+              </article>
+            </a>
+          </li>
+        </ul>
+          <a href="#" class="more underline-black">
             посмотреть больше
-          </p>
-        </div>
+          </a>
       </section>
       <section id="auction" class="about">
-        <div class="about-img align-start">
-          <img src="images/Vector.png" alt="Логотип" />
+        <div class="about-img ">
+          <img class="border-container" src="images/Vector.png" alt="Логотип" />
         </div>
         <div class="align-flex-end about-conteir">
           <h2>Об аукционе</h2>
@@ -103,35 +107,36 @@
             картина, которую может нарисовать даже ребёнок? Кому нужны все эти
             странные вещи, созданные любителями?
           </p>
-          <p>
+          <p class="margin-right">
             Слишком сложные или, наоборот, слишком простые. Опережающие своё
             время. В пух и прах растерзанные критиками. Непринятые и непонятые.
-            Когда-то они казались просто неудачными. Но, несмотря на критику,
-            кажущуюся простоту или сложность, сейчас без этих лотов невозможно
-            представить современную культуру. Когда в эти вещи не верил никто,
-            продолжали верить их создатели. И сейчас эти лоты стали культовыми.
+            Когда-то они казались просто неудачными. Но, несмотря <br>
+            на критику, кажущуюся простоту или сложность, сейчас без этих лотов
+            невозможно представить современную культуру. Когда в эти вещи не верил никто, 
+            продолжали верить их создатели. 
+            И сейчас эти лоты стали культовыми.
           </p>
         </div>
       </section>
     </main>
     <footer>
-      <address class="address-footer">
+      <address class="contacts contacts-width">
         <a class="underline-black">+9 999 555 5555</a> <br />
         <a class="underline-black">info@sobaka.ge</a> <br />
-        наб. Принсенграхт 263- 265, Амстердам
+        <p>наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
-      <nav aria-label="Меню" class="nav-footer">
+      <nav aria-label="Меню" class="nav-footer font-menu">
         <ul>
-          <li><a href="index.html">главная</a></li>
+          <li><a href="index.html" class="underline-black active">главная</a></li>
           <li><a href="#lots-section" class="underline-black">посмотреть лоты</a></li>
           <li><a href="#auction" class="underline-black">об аукционе</a></li>
         </ul>
       </nav>
-      <div class="footer-img">
-        <img src="images/vk.svg" alt="вк" />
-        <img src="images/yt.svg" alt="ютуб" />
-        <img src="images/pinterest.svg" alt="Пинтерест" />
-      </div>
+      <ul class="footer-img list-style-none">
+        <li><a href="https://www.youtube.com/"><img src="images/yt.svg" alt="ютуб" /></a></li>
+        <li><a href="https://vk.com/"><img src="images/vk.svg" alt="вк" class="margin-left"/></a></li>
+        <li><a href="https://ru.pinterest.com/"><img src="images/pinterest.svg" alt="Пинтерест" class="margin-left" /></a></li>
+      </ul>
     </footer>
   </body>
 </html>
